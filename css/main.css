@@ -1,0 +1,56 @@
+#video {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	top: -20vh;
+}
+
+h1{
+	position:relative;
+	top:50vh;
+	left:20vw;
+	background-color:white;
+}
+
+.header-section {
+    position: relative;
+    height: 200vh;
+    background-color: #6C5F5B;
+    color: white; /* 設置標題文字顏色 */
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.header-content {
+    text-align: center;
+    width: 100%;
+}
+
+.header-section h1 {
+    background-color: transparent; /* 設置背景顏色為透明 */
+    left: 5vw; /* 設置左側間距為5vw */
+    top: 5vh;
+}
+
+.ending-section {
+    height: 100vh;
+    background-color: #6C5F5B;
+    display: flex;
+    align-items: center;
+}
+
+.ending-content {
+    text-align: center;
+    width: 100%;
+}
+
+.ending-section h1 {
+    background-color: transparent; /* 設置背景顏色為透明 */
+    color: white;
+    left: 5vw; /* 設置左側間距為5vw */
+    top: 1vh;
+}
